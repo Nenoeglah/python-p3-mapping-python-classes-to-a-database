@@ -1,6 +1,6 @@
 
 from config import CONN, CURSOR
-
+import sqlite3
 class Song:
     def __init__(self, name, album):
         self.id = None
